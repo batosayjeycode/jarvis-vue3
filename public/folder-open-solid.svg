@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="10px" viewBox="0 0 15 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>folder-open-solid 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="folder-open-solid-2" fill="#000000" fill-rule="nonzero">
+            <g id="folder-open-solid">
+                <path d="M14.9139063,5.93992188 L13.0278646,9.173125 C12.7291947,9.68515686 12.1810286,10.0000095 11.5882552,10 L1.17252604,10 C0.69015625,10 0.389609375,9.47674479 0.63265625,9.06007813 L2.51869792,5.826875 C2.81738417,5.31484683 3.36555485,4.99999723 3.95833333,5 L14.3740625,5 C14.8564323,5 15.1569792,5.52325521 14.9139063,5.93992188 Z M3.95833333,4.16666667 L12.5,4.16666667 L12.5,2.91666667 C12.5,2.22630208 11.9403646,1.66666667 11.25,1.66666667 L7.08333333,1.66666667 L5.41666667,0 L1.25,0 C0.559635417,0 0,0.559635417 0,1.25 L0,8.49078125 L1.79888021,5.40697917 C2.24515625,4.64192708 3.07263021,4.16666667 3.95833333,4.16666667 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
