@@ -1,6 +1,6 @@
 # Welcome to Jarvis with Vue 3!
 
-We've developed jarvis-web with Vue 3, 
+We've developed jarvis-web with Vue 3 and Typescript,
 
 | Script         | Description                                                                      |
 | -------------- | -------------------------------------------------------------------------------- |
