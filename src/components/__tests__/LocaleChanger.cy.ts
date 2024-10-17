@@ -1,7 +1,7 @@
 import { createPinia } from "pinia";
 import i18n from "@/plugins/i18n";
 import LocaleChanger from "../LocaleChanger.vue";
-import { LocaleCode } from "@/const/locale";
+import { LocaleCode } from "@/constants/locale";
 
 describe("Locale Changes", () => {
   it("Should change locale to 中文", () => {

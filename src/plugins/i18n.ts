@@ -1,7 +1,7 @@
 import enJSON from "@/locales/en-US.json";
 import messages from "@intlify/unplugin-vue-i18n/messages";
 import { createI18n, IntlDateTimeFormat } from "vue-i18n";
-import { LOCALE, LocaleCode } from "@/const/locale";
+import { LOCALE, LocaleCode } from "@/constants/locale";
 
 /**
  * The schema is defined in `@/locales/en-GB.json`

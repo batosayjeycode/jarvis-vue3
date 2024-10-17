@@ -1,4 +1,4 @@
-import { LocaleCode } from "@/const/locale";
+import { LocaleCode } from "@/constants/locale";
 
 export const setLocalStorageLocale = (
   localeCode?: LocaleCode,

@@ -1,4 +1,4 @@
-import { LOCALE, LocaleCode } from "@/const/locale";
+import { LOCALE, LocaleCode } from "@/constants/locale";
 
 export const setDocumentLang = (localeCode: LocaleCode) => {
   const htmlElement = document.documentElement;
