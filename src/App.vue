@@ -6,6 +6,8 @@ import { Route } from "@/router/routes.enum";
 <template>
   <LocaleChanger />
   <nav>
+    <RouterLink :to="Route.Login">{{ $t("login-page") }}</RouterLink>
+    |
     <RouterLink :to="Route.Home">{{ $t("home") }}</RouterLink>
     |
     <RouterLink :to="'404'">{{ $t("404") }}</RouterLink>

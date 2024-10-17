@@ -6,6 +6,7 @@ import {
   isNavigationFailure,
 } from "vue-router";
 import { routes } from "@/router/routes";
+import { Route } from "@/router/routes.enum";
 
 export const scrollBehavior: RouterScrollBehavior = (
   to,
@@ -30,6 +31,15 @@ export const router = createRouter({
   history: createWebHistory(),
   routes,
   scrollBehavior,
+});
+
+router.beforeEach((to, from, next) => {
+  const isLoggedIn = false;
+  if (to?.meta?.auth === true && !isLoggedIn) {
+    next({ name: Route.Login });
+  } else {
+    next();
+  }
 });
 
 router.afterEach((to, from, failure) => {

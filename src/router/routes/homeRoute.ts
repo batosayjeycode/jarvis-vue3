@@ -3,10 +3,10 @@ import HomeView from "@/views/HomeView.vue";
 
 export const homeRoute = {
   name: Route.Home,
-  path: "/",
-  alias: "/home",
+  path: "/home",
   component: HomeView,
   meta: {
+    auth: true,
     metaTags: [
       {
         name: "description",
